@@ -9,24 +9,25 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
         .container { background: white; border-radius: 16px; padding: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
-        h1 { color: #333; text-align: center; margin-bottom: 30px; }
+        h1 { color: #333; text-align: center; margin-bottom: 30px; font-weight: 700; }
         h1 span { background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         ul { list-style: none; padding: 0; }
-        li { margin: 10px 0; }
-        a { display: block; padding: 15px 20px; background: #f8f9fa; border-radius: 8px; color: #333; text-decoration: none; transition: all 0.3s ease; }
-        a:hover { background: #667eea; color: white; transform: translateX(10px); }
-        .updated { text-align: center; color: #666; font-size: 0.9em; margin-top: 20px; }
+        li { margin: 12px 0; }
+        a { display: flex; align-items: center; padding: 16px 24px; background: #f8f9fa; border-radius: 12px; color: #333; text-decoration: none; transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); font-weight: 500; }
+        a:hover { background: #667eea; color: white; transform: translateX(5px) scale(1.02); box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3); }
+        .icon { margin-right: 12px; font-size: 1.2em; }
+        .updated { text-align: center; color: #666; font-size: 0.85em; margin-top: 30px; opacity: 0.8; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📚 <span>Blog Links Collection</span></h1>
         <ul>
-            <li><a href="links/2026-02-08.html">📅 2026-02-08</a></li>
-            <li><a href="links/2026-02-07.html">📅 2026-02-07</a></li>
-            <li><a href="links/2026-02-06.html">📅 2026-02-06</a></li>
+            <li><a href="links/2026-02-08.html"><span class="icon">📅</span> 2026-02-08</a></li>
+            <li><a href="links/2026-02-07.html"><span class="icon">📅</span> 2026-02-07</a></li>
+            <li><a href="links/2026-02-06.html"><span class="icon">📅</span> 2026-02-06</a></li>
         </ul>
-        <p class="updated">마지막 업데이트: 2026. 2. 8. 오후 3:28:17</p>
+        <p class="updated">마지막 업데이트: 2026. 2. 8. 오후 6:13:36</p>
     </div>
 </body>
 </html>
