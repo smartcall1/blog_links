@@ -1,3 +1,9 @@
+﻿User-agent: Yeti
+Disallow: /
+
+User-agent: Daumoa
+Disallow: /
+
 User-agent: *
 Allow: /
 Sitemap: https://smartcall1.github.io/blog_links/sitemap.xml
